@@ -10,8 +10,10 @@ var wrinkled_clothes = [
 /* YOUR CODE HERE */
 function iron(clothing_item){
     // return ironed_clothing_item;
+    return clothing_item.toLowerCase();
 }
 
+ironedClothes = wrinkled_clothes.map(iron);
 
 /* PRINT RESULT */
 console.log("--> Finished running iron.js");
