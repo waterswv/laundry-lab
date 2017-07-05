@@ -8,9 +8,11 @@ var dirty_clothes = [
 
 /* YOUR CODE HERE */
 function clean(clothing_item){
-    // return clean_clothing_item;
+return clothing_item.replace("*","");
 }
 
 
 /* PRINT RESULT */
 console.log("--> Finished running clean.js");
+cleaned_clothes = dirty_clothes.map(clean);
+console.log(cleaned_clothes);
